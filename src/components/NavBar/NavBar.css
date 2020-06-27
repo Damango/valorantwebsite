@@ -1,0 +1,25 @@
+.nav-bar-container{
+    position: relative;
+    background-color: #2f3640;
+    width: 100vw;
+    height: 65px;
+    font-family: Roboto;
+}
+
+.links-container{
+    width: 320px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #F24350;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}

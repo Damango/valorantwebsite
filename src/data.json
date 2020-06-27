@@ -1,0 +1,964 @@
+{
+    "weapons": [
+        {
+            "name": "VANDAL",
+            "cost": "$2900",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "primary_fire": {
+                "fire_mode": "Full-Automatic",
+                "rate_of_fire": "9.25 Rounds/sec"
+            },
+            "secondary_fire": {
+                "fire_mode": "Zoom(1.25x)",
+                "rate_of_fire": "8.32 Rounds/sec"
+            },
+            "ammo_info": {
+                "magazine": 25,
+                "wall_pen": "Medium"
+            },
+            "key": 0
+        },
+        {
+            "name": "PHANTOM",
+            "cost": "$2900",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-15m",
+                        "damage": 156
+                    },
+                    {
+                        "distance": "15-30m",
+                        "damage": 140
+                    },
+                    {
+                        "distance": "30-50m",
+                        "damage": 124
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-15m",
+                        "damage": 39
+                    },
+                    {
+                        "distance": "15-30m",
+                        "damage": 35
+                    },
+                    {
+                        "distance": "30-50m",
+                        "damage": 31
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-15m",
+                        "damage": 33
+                    },
+                    {
+                        "distance": "15-30m",
+                        "damage": 30
+                    },
+                    {
+                        "distance": "30-50m",
+                        "damage": 26
+                    }
+                ]
+            },
+            "primary_fire": {
+                "fire_mode": "Full-Automatic",
+                "rate_of_fire": "11 Rounds/sec"
+            },
+            "secondary_fire": {
+                "fire_mode": "Zoom(1.25x)",
+                "rate_of_fire": "9.9 Rounds/sec"
+            },
+            "ammo_info": {
+                "magazine": 30,
+                "wall_pen": "Medium"
+            },
+            "key": 1
+        },
+        {
+            "name": "GUARDIAN",
+            "cost": "$2700",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 195
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 195
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 195
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 65
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 65
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 65
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 49
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 49
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 49
+                    }
+                ]
+            },
+            "primary_fire": {
+                "fire_mode": "Semi-Automatic",
+                "rate_of_fire": "6.5 Rounds/sec"
+            },
+            "secondary_fire": {
+                "fire_mode": "Zoom(1.5x)",
+                "rate_of_fire": "6.5 Rounds/sec"
+            },
+            "ammo_info": {
+                "magazine": 12,
+                "wall_pen": "Medium"
+            },
+            "key": 2
+        },
+        {
+            "name": "BULLDOG",
+            "cost": "$2100",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 116
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 116
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 116
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 35
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 35
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 35
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 30
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 30
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 30
+                    }
+                ]
+            },
+            "primary_fire": {
+                "fire_mode": "Full-Automatic",
+                "rate_of_fire": "9.15 Rounds/sec"
+            },
+            "secondary_fire": {
+                "fire_mode": "Zoom(1.25x), 3-Round Burst",
+                "rate_of_fire": "3 Rounds/sec"
+            },
+            "ammo_info": {
+                "magazine": 24,
+                "wall_pen": "Medium"
+            },
+            "key": 3
+        },
+        {
+            "name": "MARSHALL",
+            "cost": "$1100",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 202
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 202
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 202
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 101
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 101
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 101
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-50m",
+                        "damage": 85
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 85
+                    },
+                    {
+                        "distance": "0-50m",
+                        "damage": 85
+                    }
+                ]
+            },
+            "primary_fire": {
+                "fire_mode": "Semi-Automatic",
+                "rate_of_fire": "1.5 Rounds/sec"
+            },
+            "secondary_fire": {
+                "fire_mode": "Dual-Zoom(2.5x)",
+                "rate_of_fire": "1.2 Rounds/sec"
+            },
+            "ammo_info": {
+                "magazine": 5,
+                "wall_pen": "Medium"
+            },
+            "key": 5
+        },
+        {
+            "name": "OPERATOR",
+            "cost": "$4500",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 4
+        },
+        {
+            "name": "SPECTRE",
+            "cost": "$1600",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 6
+        },
+        {
+            "name": "STINGER",
+            "cost": "$1300",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 7
+        },
+        {
+            "name": "JUDGE",
+            "cost": "$1500",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 9
+        },
+        {
+            "name": "BUCKY",
+            "cost": "$900",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 8
+        },
+        {
+            "name": "ODIN",
+            "cost": "$800",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 10
+        },
+        {
+            "name": "ARES",
+            "cost": "$1600",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 11
+        },
+        {
+            "name": "SHERIFF",
+            "cost": "$800",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 12
+        },
+        {
+            "name": "GHOST",
+            "cost": "$500",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 13
+        },
+        {
+            "name": "FRENZY",
+            "cost": "$400",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 14
+        },
+        {
+            "name": "SHORTY",
+            "cost": "$200",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 15
+        },
+        {
+            "name": "CLASSIC",
+            "cost": "FREE",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 16
+        },
+        {
+            "name": "KNIFE",
+            "cost": "FREE",
+            "fire-rate": "6.75 Rounds Per Second",
+            "damage_info": {
+                "head": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 178
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 142
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 125
+                    }
+                ],
+                "body": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 45
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 32
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 27
+                    }
+                ],
+                "legs": [
+                    {
+                        "distance": "0-20m",
+                        "damage": 34
+                    },
+                    {
+                        "distance": "20-40m",
+                        "damage": 28
+                    },
+                    {
+                        "distance": "40-80m",
+                        "damage": 22
+                    }
+                ]
+            },
+            "key": 17
+        }
+    ]
+}

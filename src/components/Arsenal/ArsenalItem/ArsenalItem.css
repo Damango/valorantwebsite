@@ -1,0 +1,86 @@
+.arsenal-item-container{
+    transition: 0.2s;
+    top: 0px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+    overflow: hidden;
+    width: 400px !important;
+}
+
+
+.arsenal-item-container:hover{
+    top: -10px;
+    cursor: pointer;
+}
+
+.item-1{
+    background: url('../../../imgs/sheriff.png');
+}
+
+.item-name{
+    background-color: #F24350;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.item-name span{
+    position: relative;
+    top: 20px;
+    
+}
+
+.moving-1{
+    position: absolute;
+    background-color: white;
+    height: 8px;
+    width: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    transition: 0.3s;   
+}
+
+.moving-2{
+    position: absolute;
+    background-color: white;
+    height: 8px;
+    width: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    
+    transition: 0.3s;
+}
+
+.arsenal-item-container:hover {
+
+    background-color: rgb(240, 240, 240) !important;
+}
+
+
+
+.arsenal-item-container:hover .moving-1{
+
+    width: 12%;
+}
+
+.arsenal-item-container:hover .moving-2{
+
+    width: 12%;
+}
+
+
+
+img{
+    z-index: 2;
+}

@@ -1,0 +1,27 @@
+.arsenal-container{
+
+   
+    height: auto;
+    width: 100vw;
+    z-index: 4;
+   overflow-y: hidden;
+  
+   padding-bottom: 50px;
+}
+
+.arsenal-display{
+    position: relative;
+    top: 40px;
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: hidden;
+   
+}

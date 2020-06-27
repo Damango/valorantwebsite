@@ -1,0 +1,283 @@
+.card-container{
+    position: relative;
+    height: 33.3vh;
+    background: linear-gradient(to right,#F24350, #f51624 ) ;
+    width: 100vw;
+    padding-bottom: .3px;
+    overflow: hidden;
+    border: 1px solid rgba(32, 32, 32, 0.719);
+}
+
+.card-overlay{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.685);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.moving-bar-1{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+.moving-bar-2{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    bottom: 30px;
+    
+    transition: 0.6s;
+    
+}
+
+.moving-bar-3{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    bottom: 30px;
+    transform: rotate(25deg);
+    transition: 0.6s;
+    left: -20px;
+    
+}
+
+.moving-bar-4{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+   top: 30px;
+    transform: rotate(-25deg);
+    transition: 0.6s;
+    left: -20px;
+    
+}
+
+
+.moving-bar-5{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    top: 30px;
+    transition: 0.3s;
+    right: 0px;
+}
+
+.moving-bar-6{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    bottom: 30px;
+    right: 0px;
+    transition: 0.6s;
+    
+}
+
+.moving-bar-7{
+    position: absolute;
+    background-color: white;
+    height: 0px;
+    width: 20px;
+    bottom: 0px;
+    right: 60px;
+    transition: 0.6s;
+    
+}
+
+.moving-bar-8{
+    position: absolute;
+    background-color: white;
+    height: 0px;
+    width: 20px;
+    top: 0px;
+    right: 60px;
+    transition: 0.6s;
+    
+}
+
+.moving-bar-9{
+    position: absolute;
+    background-color: white;
+    height: 15px;
+    width: 0px;
+    bottom: 30px;
+    right: 0px;
+    transition: 0.6s;
+    transition-delay: 0.3s;
+    
+}
+
+
+
+
+.card-overlay:hover .moving-bar-1{
+    width: 300px !important;
+}
+
+.card-overlay:hover .moving-bar-2{
+    width: 375px !important;
+   
+}
+.card-overlay:hover .moving-bar-3{
+    width:250px ;
+  
+}
+
+.card-overlay:hover .moving-bar-4{
+    width:250px ;
+ 
+   
+}
+
+
+.card-overlay:hover .moving-bar-5{
+    width: 375px !important;
+   
+}
+
+.card-overlay:hover .moving-bar-6{
+    width: 475px !important;
+   
+}
+
+.card-overlay:hover .moving-bar-7{
+    height: 50% !important;
+   
+}
+
+.card-overlay:hover .moving-bar-8{
+    height: 50% !important;
+   
+}
+
+.card-overlay:hover .moving-bar-9{
+    width: 275px !important;
+   
+}
+.card-overlay:hover{
+    background-color:rgba(0, 0, 0, 0.116);
+    cursor: pointer;
+}
+
+.card-name{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+   margin-left: 5%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+}
+
+.right{
+    float: right !important;
+    right: 5%;
+}
+
+.img1{
+    position: absolute;
+    bottom: 0px;
+    left: 700px;
+    height: 300px;
+    width: 350px;
+    background-size: cover !important;
+    background: url('../../imgs/jett.png');
+}
+
+.img2{
+    position: absolute;
+    bottom: 0px;
+    left: 1250px;
+    height: 300px;
+    width: 350px;
+    background-size: cover !important;
+    background: url('../../imgs/phoenix.png');
+}
+
+.img3{
+    position: absolute;
+    bottom: 0px;
+    left: 950px;
+    height: 300px;
+    width: 350px;
+    background-size: cover !important;
+    background: url('../../imgs/reyna.png');
+}
+
+.img4{
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+ 
+    width: 500px;
+    height: 120px;
+    background-size: cover !important;
+    background: url('../../imgs/phantom.png');
+   left: 200px;
+   top: 50px;
+}
+
+.img5{
+    position: absolute;
+   
+    width: 320px;
+    height: 170px;
+    background-size: cover !important;
+    background: url('../../imgs/sheriff.png');
+   left: 800px;
+   top: 50px;
+}
+
+.img6{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    background-size: cover !important;
+    background: url('../../imgs/spectre.png');
+   left: 500px;
+   bottom: 20px;
+}
+
+
+.img7{
+    position: absolute;
+    width: 280px;
+    height: 290px;
+    background-size: cover !important;
+    background: url('../../imgs/valorantrank.png');
+   left: 700px;
+   top: 0px;
+}
+
+.img8{
+    position: absolute;
+   
+    width: 160px;
+    height: 170px;
+    background-size: cover !important;
+    background: url('../../imgs/diamondrank.png');
+    left: 1250px;
+   top: 50px;
+}
+
+.img9{
+    position: absolute;
+   
+    width: 160px;
+    height: 170px;
+    background-size: cover !important;
+    background: url('../../imgs/platniumrank.png');
+   left: 1000px;
+   top: 50px;
+}
